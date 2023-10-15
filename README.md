@@ -1,9 +1,8 @@
 <h1>School District Analysis</h1>
 
 
-<div class="center-div">
-  <img src="https://github.com/Xthe23/pandas-challenge/blob/main/Images/education.png" alt="Education Image">
-</div>
+<img src="https://github.com/Xthe23/pandas-challenge/blob/main/Images/education.png" alt="Education Image">
+
 
 
 <p>
@@ -29,6 +28,9 @@ per_school_summary = pd.DataFrame({
 # Display the DataFrame
 per_school_summary
 ```
+
+<img src="https://github.com/Xthe23/pandas-challenge/blob/main/Images/results1.png" alt="Results Alternative Image">
+
 <h2>Dependencies and Setup</h2>
 <p>To run the analysis, ensure you have the following dependencies:</p>
 <pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
